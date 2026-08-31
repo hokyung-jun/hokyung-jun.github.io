@@ -130,24 +130,12 @@ h1 { margin: 0; font-size: clamp(2.6rem, 5.3vw, 5.8rem); line-height: 1.15; lett
 .work-copy h3 { margin: 0 0 2rem; font-size: clamp(2rem, 4.3vw, 4.6rem); line-height: 1.12; letter-spacing: -0.05em; }
 .work-copy > p:last-child { color: var(--muted); font-size: 0.88rem; }
 
-.work-grid { display: grid; grid-template-columns: 1fr 1fr; max-width: var(--max); margin: clamp(5rem, 10vw, 10rem) auto; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.work-grid { display: grid; grid-template-columns: 1fr; max-width: var(--max); margin: clamp(5rem, 10vw, 10rem) auto; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
 .project-card { display: grid; grid-template-columns: 5rem 1fr; gap: 1.5rem; min-height: 25rem; padding: clamp(2rem, 4vw, 4rem); }
 .project-card + .project-card { border-left: 1px solid var(--line); }
 .project-index { color: var(--accent); font: italic 1.6rem/1 Georgia, serif; }
 .project-card h3 { margin: 0 0 1.8rem; font-size: clamp(2rem, 3vw, 3.5rem); line-height: 1.2; letter-spacing: -0.045em; }
 .project-card p:last-child { max-width: 26rem; color: var(--muted); font-size: 0.86rem; }
-
-.hometown-panorama { max-width: var(--max); margin: 0 auto clamp(5rem, 10vw, 10rem); }
-.hometown-panorama img { aspect-ratio: 2.52 / 1; object-fit: cover; }
-.hometown-panorama figcaption {
-  display: flex;
-  justify-content: space-between;
-  gap: 1rem;
-  padding-top: 0.8rem;
-  color: var(--muted);
-  font-size: 0.66rem;
-  letter-spacing: 0.08em;
-}
 
 .sea-detail { max-width: 960px; margin: 0 auto; }
 .sea-detail img { aspect-ratio: 3 / 2; object-fit: cover; filter: grayscale(1) contrast(1.08); }
@@ -209,8 +197,6 @@ footer a:hover, footer a:focus-visible { color: #e4bd6c; }
   .project-card { grid-template-columns: 2rem 1fr; padding: 2rem 0.4rem; }
   .sea-detail figcaption { display: block; }
   .sea-detail figcaption span { display: block; }
-  .hometown-panorama figcaption { display: block; }
-  .hometown-panorama figcaption span { display: block; }
   .timeline li { grid-template-columns: 1fr; gap: 0.7rem; }
 }
 
